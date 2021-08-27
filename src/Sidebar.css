@@ -29,6 +29,11 @@
 .sidebar__searchContainer > input {
   border: none;
   margin-left: 10px;
+  width: 80%;
+}
+
+.sidebar__searchContainer > input:focus {
+  outline: none;
 }
 
 .sidebar__header {
@@ -48,4 +53,14 @@
 .sidebar__headerRight > .MuiSvgIcon-root {
   margin-right: 2vw;
   font-size: 24px !important;
+}
+
+.sidebar__chats {
+  flex: 1;
+  background-color: white;
+  overflow: scroll;
+}
+
+.sidebar__chats::-webkit-scrollbar {
+  display: none;
 }
